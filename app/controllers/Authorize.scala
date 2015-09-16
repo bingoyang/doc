@@ -1,27 +1,32 @@
 package controllers
 
+import scala.concurrent.ExecutionContext
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.Future
+import scala.reflect.ClassTag
+import scala.reflect.classTag
+import jp.t2v.lab.play2.auth._
+import jp.t2v.lab.play2.stackc.RequestAttributeKey
+import jp.t2v.lab.play2.stackc.RequestWithAttributes
+import jp.t2v.lab.play2.stackc.StackableController
+import models.{ User => Customer }
+import play.api._
+import play.api.Logger
+import play.api.Play._
 import play.api.data._
 import play.api.data.Forms._
-import play.api.templates._
-import views._
 import play.api.mvc._
 import play.api.mvc.Results._
-import jp.t2v.lab.play2.auth._
-import play.api.Play._
-import jp.t2v.lab.play2.stackc.{ RequestWithAttributes, RequestAttributeKey, StackableController }
-import scala.concurrent.{ ExecutionContext, Future }
-import ExecutionContext.Implicits.global
-import reflect.{ ClassTag, classTag }
-import auth.{User => Customer}
-import auth.Permission
-import org.bson.types.ObjectId
-import play.api.Logger
+import play.api.templates._
+import views._
+import models.Users
+import play.api.db.slick.DB
 
 object Authorize extends Controller with LoginLogout with AuthConfigImpl {
   var logger = Logger(this.getClass)
-
+  
   val loginForm = Form {
-    mapping("username" -> email, "password" -> text)(Customer.authenticate)(_.map(u => (u.username, "")))
+    mapping("username" -> email, "password" -> text)(Users.authenticate)(_.map(u => (u.username, "")))
       .verifying("Invalid email or password", result => result.isDefined)
   }
 
@@ -42,17 +47,21 @@ object Authorize extends Controller with LoginLogout with AuthConfigImpl {
 
 trait AuthConfigImpl extends AuthConfig {
 
-  type Id = ObjectId
+  type Id = Int
 
   type User = Customer 
 
-  type Authority = Permission
+  type Authority = Int
 
   val idTag: ClassTag[Id] = classTag[Id]
 
   val sessionTimeoutInSeconds = 3600
 
-  def resolveUser(id: Id)(implicit ctx: ExecutionContext) = Future.successful(Customer.findById(id))
+  def resolveUser(id: Int)(implicit ctx: ExecutionContext) = {
+    Future.successful(DB.withSession { implicit session: play.api.db.slick.Config.driver.simple.Session =>
+      Users.findById(id)
+    })
+  }
 
   def loginSucceeded(request: RequestHeader)(implicit ctx: ExecutionContext) = Future.successful(Redirect(routes.Application.index))
 
@@ -62,10 +71,6 @@ trait AuthConfigImpl extends AuthConfig {
 
   def authorizationFailed(request: RequestHeader)(implicit ctx: ExecutionContext) = Future.successful(Forbidden("no permission"))
 
-  def authorize(user: User, authority: Authority)(implicit ctx: ExecutionContext) = Future.successful((user.permission.get.pname, authority.pname) match {
-    case ("Administrator", _)       => true
-    case ("NormalUser", "NormalUser") => true
-    case _                        => false
-  })
+  def authorize(user: User, authority: Authority)(implicit ctx: ExecutionContext) = Future.successful(true)
 
 }

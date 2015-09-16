@@ -1,25 +1,31 @@
-import auth.User
-import com.mongodb.casbah.Imports._
 import play.api._
-import libs.ws.WS
-import se.radley.plugin.salat._
-import auth.Permission
+import play.api.db.slick.Config.driver.simple._
+import play.api.db.slick.DB
+import play.api.libs.concurrent.Execution.Implicits.defaultContext
 import play.api.mvc.EssentialAction
+import models._
+import models.Users.users
+import play.api.Play.current
 
 
 object Global extends GlobalSettings {
 
   override def onStart(app: Application) {
-
-    if (User.count(DBObject()) == 0) {
-      val p =  Permission(pname = "Administrator",pmark = "")
-      
-      Seq(
-        User(username = "yangliubinga@163.com", password = "123",permission = Option.apply(p)),
-        User(username = "bob@example.com", password = "secret",permission = Option.apply(p)),
-        User(username = "chris@example.com", password = "secret",permission = Option.apply(p))) foreach User.create
-    }
+      InitialData.insert()
   }
   
   override def doFilter(action: EssentialAction) = AuthFilter(action)
+  
+ object InitialData {
+
+  def insert(): Unit = {
+    DB.withSession { implicit s =>
+        if (Users.count == 0) {
+          val rows = Seq(
+            User(1, "yangliubinga@163.com", "123"))
+          Users.users.insertAll(rows: _*)
+        }
+      }
+    }
+  }
 }
