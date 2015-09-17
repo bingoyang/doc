@@ -1,3 +1,2502 @@
-2015-09-16 18:33:59,760 - [INFO] - from play in pool-10-thread-5 
+2015-09-17 14:27:07,741 - [INFO] - from play in pool-103-thread-6 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2015-09-17 14:27:12,162 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://182.92.175.63:3306/joy-test?rewriteBatchedStatements=true&useUnicode=true&characterEncoding=utf-8
+
+2015-09-17 14:27:12,642 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 14:27:12,732 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$
+
+2015-09-17 14:27:12,762 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 14:27:12,812 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 14:27:12,812 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 14:27:12,822 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 14:27:12,832 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 14:27:12,912 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 14:27:12,992 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 14:27:13,002 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 14:27:13,002 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 14:27:13,012 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 14:27:13,012 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 14:27:13,022 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users
+
+2015-09-17 14:27:13,022 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 14:27:13,032 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 14:27:13,032 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 14:27:13,032 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 14:27:13,042 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 14:27:13,042 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 14:27:13,042 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 14:27:13,052 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 14:27:13,052 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 14:27:13,052 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 14:27:13,052 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 14:27:13,062 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 14:27:13,062 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 14:27:13,072 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 14:27:13,082 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 14:27:13,082 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 14:27:13,082 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 14:27:13,092 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 14:27:13,092 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 14:27:13,092 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 14:27:13,102 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 14:27:13,102 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 14:27:13,102 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.User
+
+2015-09-17 14:27:13,102 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.User$
+
+2015-09-17 14:27:13,112 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 14:27:13,112 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 14:27:13,112 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 14:27:13,122 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 14:27:13,122 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
+
+2015-09-17 14:27:13,382 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-09-17 14:27:46,334 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://182.92.175.63:3306/joy-test?rewriteBatchedStatements=true&useUnicode=true&characterEncoding=utf-8
+
+2015-09-17 14:27:46,334 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 14:27:46,384 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$
+
+2015-09-17 14:27:46,394 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 14:27:46,414 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 14:27:46,414 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 14:27:46,414 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 14:27:46,424 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 14:27:46,424 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 14:27:46,434 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 14:27:46,434 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 14:27:46,444 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 14:27:46,444 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 14:27:46,454 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 14:27:46,454 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users
+
+2015-09-17 14:27:46,464 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 14:27:46,464 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 14:27:46,464 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 14:27:46,474 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 14:27:46,474 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 14:27:46,474 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 14:27:46,474 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 14:27:46,484 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 14:27:46,484 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 14:27:46,484 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 14:27:46,484 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 14:27:46,494 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 14:27:46,494 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 14:27:46,494 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 14:27:46,504 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 14:27:46,504 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 14:27:46,504 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 14:27:46,514 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 14:27:46,514 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 14:27:46,514 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 14:27:46,524 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 14:27:46,524 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 14:27:46,524 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.User
+
+2015-09-17 14:27:46,524 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.User$
+
+2015-09-17 14:27:46,534 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 14:27:46,534 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 14:27:46,534 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 14:27:46,544 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 14:27:46,544 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
+
+2015-09-17 14:27:46,614 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-09-17 14:28:55,400 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://182.92.175.63:3306/joy-test?rewriteBatchedStatements=true&useUnicode=true&characterEncoding=utf-8
+
+2015-09-17 14:28:55,400 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 14:28:55,440 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$
+
+2015-09-17 14:28:55,460 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 14:28:55,470 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 14:28:55,480 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 14:28:55,480 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 14:28:55,490 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 14:28:55,490 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 14:28:55,500 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 14:28:55,500 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 14:28:55,510 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 14:28:55,510 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 14:28:55,520 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 14:28:55,520 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users
+
+2015-09-17 14:28:55,520 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 14:28:55,530 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 14:28:55,530 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 14:28:55,530 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 14:28:55,530 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 14:28:55,540 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 14:28:55,540 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 14:28:55,540 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 14:28:55,540 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 14:28:55,550 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 14:28:55,550 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 14:28:55,550 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 14:28:55,560 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 14:28:55,560 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 14:28:55,560 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 14:28:55,570 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 14:28:55,570 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 14:28:55,570 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 14:28:55,580 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 14:28:55,580 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 14:28:55,580 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 14:28:55,590 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 14:28:55,590 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.User
+
+2015-09-17 14:28:55,590 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.User$
+
+2015-09-17 14:28:55,590 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 14:28:55,600 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 14:28:55,600 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 14:28:55,600 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 14:28:55,600 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
+
+2015-09-17 14:28:55,690 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-09-17 14:29:16,242 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://182.92.175.63:3306/joy-test?rewriteBatchedStatements=true&useUnicode=true&characterEncoding=utf-8
+
+2015-09-17 14:29:16,242 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 14:29:16,282 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$
+
+2015-09-17 14:29:16,302 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 14:29:16,312 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 14:29:16,322 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 14:29:16,322 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 14:29:16,322 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 14:29:16,322 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 14:29:16,332 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 14:29:16,342 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 14:29:16,342 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 14:29:16,342 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 14:29:16,352 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 14:29:16,352 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users
+
+2015-09-17 14:29:16,352 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 14:29:16,362 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 14:29:16,362 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 14:29:16,362 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 14:29:16,372 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 14:29:16,372 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 14:29:16,372 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 14:29:16,372 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 14:29:16,382 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 14:29:16,382 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 14:29:16,382 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 14:29:16,382 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 14:29:16,392 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 14:29:16,392 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 14:29:16,392 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 14:29:16,402 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 14:29:16,402 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 14:29:16,402 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 14:29:16,402 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 14:29:16,412 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 14:29:16,412 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 14:29:16,412 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 14:29:16,422 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.User
+
+2015-09-17 14:29:16,422 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.User$
+
+2015-09-17 14:29:16,422 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 14:29:16,432 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 14:29:16,432 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 14:29:16,432 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 14:29:16,432 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
+
+2015-09-17 14:29:16,502 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-09-17 14:29:32,564 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://182.92.175.63:3306/joy-test?rewriteBatchedStatements=true&useUnicode=true&characterEncoding=utf-8
+
+2015-09-17 14:29:32,574 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 14:29:32,604 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$
+
+2015-09-17 14:29:32,624 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 14:29:32,634 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 14:29:32,634 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 14:29:32,634 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 14:29:32,644 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 14:29:32,644 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 14:29:32,654 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 14:29:32,654 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 14:29:32,654 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 14:29:32,664 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 14:29:32,664 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 14:29:32,674 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users
+
+2015-09-17 14:29:32,674 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 14:29:32,674 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 14:29:32,684 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 14:29:32,684 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 14:29:32,684 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 14:29:32,694 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 14:29:32,694 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 14:29:32,694 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 14:29:32,694 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 14:29:32,694 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 14:29:32,704 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 14:29:32,704 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 14:29:32,704 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 14:29:32,714 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 14:29:32,714 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 14:29:32,714 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 14:29:32,724 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 14:29:32,724 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 14:29:32,724 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 14:29:32,724 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 14:29:32,734 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 14:29:32,734 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 14:29:32,734 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.User
+
+2015-09-17 14:29:32,734 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.User$
+
+2015-09-17 14:29:32,744 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 14:29:32,744 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 14:29:32,744 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 14:29:32,754 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 14:29:32,754 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
+
+2015-09-17 14:29:32,814 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-09-17 14:29:50,564 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://182.92.175.63:3306/joy-test?rewriteBatchedStatements=true&useUnicode=true&characterEncoding=utf-8
+
+2015-09-17 14:29:50,564 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 14:29:50,594 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$
+
+2015-09-17 14:29:50,614 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 14:29:50,624 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 14:29:50,634 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 14:29:50,634 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 14:29:50,634 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 14:29:50,644 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 14:29:50,644 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 14:29:50,654 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 14:29:50,654 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 14:29:50,654 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 14:29:50,664 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 14:29:50,664 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users
+
+2015-09-17 14:29:50,674 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 14:29:50,674 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 14:29:50,674 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 14:29:50,684 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 14:29:50,684 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 14:29:50,684 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 14:29:50,684 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 14:29:50,694 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 14:29:50,694 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 14:29:50,694 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 14:29:50,694 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 14:29:50,694 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 14:29:50,704 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 14:29:50,704 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 14:29:50,704 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 14:29:50,714 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 14:29:50,714 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 14:29:50,714 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 14:29:50,724 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 14:29:50,724 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 14:29:50,724 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 14:29:50,724 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 14:29:50,734 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.User
+
+2015-09-17 14:29:50,734 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.User$
+
+2015-09-17 14:29:50,734 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 14:29:50,744 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 14:29:50,744 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 14:29:50,744 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 14:29:50,744 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
+
+2015-09-17 14:29:50,804 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-09-17 14:30:44,651 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://182.92.175.63:3306/joy-test?rewriteBatchedStatements=true&useUnicode=true&characterEncoding=utf-8
+
+2015-09-17 14:30:44,661 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 14:30:44,691 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$
+
+2015-09-17 14:30:44,711 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 14:30:44,721 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 14:30:44,721 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 14:30:44,721 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 14:30:44,731 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 14:30:44,731 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 14:30:44,741 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 14:30:44,741 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 14:30:44,741 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 14:30:44,751 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 14:30:44,751 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 14:30:44,761 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users
+
+2015-09-17 14:30:44,761 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 14:30:44,761 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 14:30:44,771 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 14:30:44,771 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 14:30:44,771 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 14:30:44,781 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 14:30:44,781 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 14:30:44,781 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 14:30:44,781 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 14:30:44,781 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 14:30:44,791 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 14:30:44,791 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 14:30:44,791 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 14:30:44,801 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 14:30:44,801 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 14:30:44,801 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 14:30:44,801 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 14:30:44,811 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 14:30:44,811 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 14:30:44,811 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 14:30:44,821 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 14:30:44,821 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 14:30:44,821 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.User
+
+2015-09-17 14:30:44,821 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.User$
+
+2015-09-17 14:30:44,831 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 14:30:44,831 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 14:30:44,831 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 14:30:44,831 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 14:30:44,841 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
+
+2015-09-17 14:30:44,901 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-09-17 14:31:39,877 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://182.92.175.63:3306/joy-test?rewriteBatchedStatements=true&useUnicode=true&characterEncoding=utf-8
+
+2015-09-17 14:31:39,887 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 14:31:40,267 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$
+
+2015-09-17 14:31:40,287 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 14:31:40,297 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 14:31:40,297 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 14:31:40,297 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 14:31:40,307 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 14:31:40,307 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 14:31:40,317 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 14:31:40,317 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 14:31:40,317 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 14:31:40,327 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 14:31:40,327 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 14:31:40,337 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users
+
+2015-09-17 14:31:40,337 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 14:31:40,337 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 14:31:40,347 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 14:31:40,347 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 14:31:40,347 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 14:31:40,347 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 14:31:40,347 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 14:31:40,357 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 14:31:40,357 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 14:31:40,357 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 14:31:40,357 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 14:31:40,367 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 14:31:40,367 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 14:31:40,367 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 14:31:40,367 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 14:31:40,377 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 14:31:40,377 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 14:31:40,377 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 14:31:40,387 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 14:31:40,387 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 14:31:40,387 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 14:31:40,387 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 14:31:40,397 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.User
+
+2015-09-17 14:31:40,397 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.User$
+
+2015-09-17 14:31:40,397 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 14:31:40,407 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 14:31:40,407 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 14:31:40,407 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 14:31:40,407 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in play-internal-execution-context-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
+
+2015-09-17 14:31:40,477 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-09-17 17:19:20,160 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 17:19:20,330 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$
+
+2015-09-17 17:19:20,340 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 17:19:20,380 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 17:19:20,390 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 17:19:20,390 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 17:19:20,390 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 17:19:20,470 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 17:19:20,530 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 17:19:20,540 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 17:19:20,540 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 17:19:20,550 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 17:19:20,550 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 17:19:20,560 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users
+
+2015-09-17 17:19:20,560 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 17:19:20,560 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 17:19:20,570 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 17:19:20,570 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 17:19:20,570 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 17:19:20,570 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 17:19:20,570 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 17:19:20,570 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 17:19:20,580 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 17:19:20,580 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 17:19:20,580 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 17:19:20,580 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 17:19:20,590 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 17:19:20,590 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 17:19:20,600 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 17:19:20,600 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 17:19:20,600 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 17:19:20,610 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 17:19:20,610 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 17:19:20,610 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 17:19:20,610 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 17:19:20,620 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 17:19:20,620 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User
+
+2015-09-17 17:19:20,620 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User$
+
+2015-09-17 17:19:20,620 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 17:19:20,630 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 17:19:20,630 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 17:19:20,630 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 17:19:20,630 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
+
+2015-09-17 17:57:46,561 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 17:57:46,741 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$
+
+2015-09-17 17:57:46,761 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 17:57:46,791 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 17:57:46,801 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 17:57:46,801 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 17:57:46,811 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 17:57:46,891 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 17:57:46,941 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 17:57:46,951 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 17:57:46,951 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 17:57:46,961 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 17:57:46,961 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 17:57:46,971 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users
+
+2015-09-17 17:57:46,971 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 17:57:46,971 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 17:57:46,981 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 17:57:46,981 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 17:57:46,981 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 17:57:46,981 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 17:57:46,981 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 17:57:46,981 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 17:57:46,981 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 17:57:46,991 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 17:57:46,991 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 17:57:46,991 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 17:57:46,991 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 17:57:47,001 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 17:57:47,011 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 17:57:47,011 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 17:57:47,011 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 17:57:47,011 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 17:57:47,011 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 17:57:47,021 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 17:57:47,021 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 17:57:47,021 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 17:57:47,021 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User
+
+2015-09-17 17:57:47,021 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User$
+
+2015-09-17 17:57:47,031 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 17:57:47,031 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 17:57:47,031 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 17:57:47,031 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 17:57:47,031 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
+
+2015-09-17 17:59:33,410 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 17:59:33,580 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$
+
+2015-09-17 17:59:33,600 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 17:59:33,640 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 17:59:33,640 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 17:59:33,640 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 17:59:33,650 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 17:59:33,730 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 17:59:33,780 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 17:59:33,790 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 17:59:33,790 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 17:59:33,800 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 17:59:33,800 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 17:59:33,810 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users
+
+2015-09-17 17:59:33,810 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 17:59:33,810 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 17:59:33,820 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 17:59:33,820 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 17:59:33,820 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 17:59:33,820 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 17:59:33,820 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 17:59:33,820 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 17:59:33,820 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 17:59:33,820 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 17:59:33,820 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 17:59:33,830 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 17:59:33,830 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 17:59:33,830 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 17:59:33,840 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 17:59:33,840 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 17:59:33,850 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 17:59:33,850 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 17:59:33,850 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 17:59:33,850 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 17:59:33,850 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 17:59:33,860 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 17:59:33,860 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User
+
+2015-09-17 17:59:33,860 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User$
+
+2015-09-17 17:59:33,860 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 17:59:33,870 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 17:59:33,870 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 17:59:33,870 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 17:59:33,870 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
+
+2015-09-17 18:00:22,059 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 18:00:22,229 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$
+
+2015-09-17 18:00:22,239 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 18:00:22,279 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 18:00:22,279 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 18:00:22,289 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 18:00:22,289 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 18:00:22,369 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 18:00:22,429 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 18:00:22,429 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 18:00:22,439 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 18:00:22,439 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 18:00:22,449 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 18:00:22,459 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users
+
+2015-09-17 18:00:22,459 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 18:00:22,459 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 18:00:22,459 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 18:00:22,459 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 18:00:22,459 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 18:00:22,459 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 18:00:22,459 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 18:00:22,469 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 18:00:22,469 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 18:00:22,469 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 18:00:22,469 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 18:00:22,469 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 18:00:22,479 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 18:00:22,479 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 18:00:22,489 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 18:00:22,489 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 18:00:22,489 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 18:00:22,489 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 18:00:22,489 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 18:00:22,499 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 18:00:22,499 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 18:00:22,499 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 18:00:22,499 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User
+
+2015-09-17 18:00:22,499 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User$
+
+2015-09-17 18:00:22,509 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 18:00:22,509 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 18:00:22,509 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 18:00:22,509 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 18:00:22,509 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
+
+2015-09-17 18:02:24,486 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 18:02:24,666 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$
+
+2015-09-17 18:02:24,676 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 18:02:24,716 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 18:02:24,716 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 18:02:24,716 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 18:02:24,726 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 18:02:24,806 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 18:02:24,866 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 18:02:24,876 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 18:02:24,876 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 18:02:24,876 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 18:02:24,876 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 18:02:24,886 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users
+
+2015-09-17 18:02:24,886 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 18:02:24,896 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 18:02:24,896 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 18:02:24,896 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 18:02:24,896 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 18:02:24,896 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 18:02:24,896 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 18:02:24,906 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 18:02:24,906 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 18:02:24,906 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 18:02:24,906 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 18:02:24,916 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 18:02:24,916 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 18:02:24,916 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 18:02:24,926 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 18:02:24,926 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 18:02:24,926 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 18:02:24,936 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 18:02:24,936 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 18:02:24,936 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 18:02:24,936 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 18:02:24,936 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 18:02:24,946 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User
+
+2015-09-17 18:02:24,946 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User$
+
+2015-09-17 18:02:24,946 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 18:02:24,946 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 18:02:24,946 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 18:02:24,946 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 18:02:24,956 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
+
+2015-09-17 18:03:09,909 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 18:03:10,089 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$
+
+2015-09-17 18:03:10,109 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 18:03:10,139 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 18:03:10,149 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 18:03:10,149 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 18:03:10,149 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 18:03:10,239 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 18:03:10,289 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 18:03:10,299 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 18:03:10,299 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 18:03:10,299 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 18:03:10,309 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 18:03:10,319 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users
+
+2015-09-17 18:03:10,319 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 18:03:10,319 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 18:03:10,319 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 18:03:10,319 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 18:03:10,319 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 18:03:10,319 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 18:03:10,329 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 18:03:10,329 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 18:03:10,329 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 18:03:10,329 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 18:03:10,329 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 18:03:10,329 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 18:03:10,339 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 18:03:10,339 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 18:03:10,349 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 18:03:10,349 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 18:03:10,349 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 18:03:10,349 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 18:03:10,359 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 18:03:10,359 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 18:03:10,359 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 18:03:10,359 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 18:03:10,369 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User
+
+2015-09-17 18:03:10,369 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User$
+
+2015-09-17 18:03:10,369 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 18:03:10,369 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 18:03:10,369 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 18:03:10,369 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 18:03:10,379 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
+
+2015-09-17 18:06:16,924 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 18:06:17,104 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$
+
+2015-09-17 18:06:17,114 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 18:06:17,154 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 18:06:17,154 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 18:06:17,154 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 18:06:17,164 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 18:06:17,244 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 18:06:17,304 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 18:06:17,304 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 18:06:17,314 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 18:06:17,314 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 18:06:17,324 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 18:06:17,324 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users
+
+2015-09-17 18:06:17,324 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 18:06:17,334 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 18:06:17,334 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 18:06:17,334 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 18:06:17,334 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 18:06:17,334 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 18:06:17,334 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 18:06:17,344 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 18:06:17,344 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 18:06:17,344 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 18:06:17,344 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 18:06:17,344 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 18:06:17,354 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 18:06:17,354 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 18:06:17,364 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 18:06:17,364 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 18:06:17,364 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 18:06:17,364 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 18:06:17,364 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 18:06:17,374 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 18:06:17,374 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 18:06:17,374 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 18:06:17,374 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User
+
+2015-09-17 18:06:17,374 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User$
+
+2015-09-17 18:06:17,384 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 18:06:17,384 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 18:06:17,384 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 18:06:17,384 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 18:06:17,394 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
+
+2015-09-17 18:07:42,317 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 18:07:42,487 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$
+
+2015-09-17 18:07:42,507 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 18:07:42,547 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 18:07:42,547 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 18:07:42,557 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 18:07:42,557 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 18:07:42,637 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 18:07:42,697 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 18:07:42,707 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 18:07:42,707 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 18:07:42,707 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 18:07:42,717 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 18:07:42,727 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users
+
+2015-09-17 18:07:42,727 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 18:07:42,727 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 18:07:42,727 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 18:07:42,727 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 18:07:42,727 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 18:07:42,727 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 18:07:42,727 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 18:07:42,737 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 18:07:42,737 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 18:07:42,737 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 18:07:42,737 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 18:07:42,737 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 18:07:42,747 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 18:07:42,747 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 18:07:42,757 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 18:07:42,757 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 18:07:42,757 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 18:07:42,757 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 18:07:42,767 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 18:07:42,767 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 18:07:42,767 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 18:07:42,767 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 18:07:42,777 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User
+
+2015-09-17 18:07:42,777 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User$
+
+2015-09-17 18:07:42,777 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 18:07:42,777 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 18:07:42,777 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 18:07:42,777 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 18:07:42,787 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
+
+2015-09-17 18:12:53,873 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 18:12:54,053 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$
+
+2015-09-17 18:12:54,073 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 18:12:54,103 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 18:12:54,113 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 18:12:54,113 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 18:12:54,123 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 18:12:54,203 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 18:12:54,253 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 18:12:54,263 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 18:12:54,263 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 18:12:54,263 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 18:12:54,273 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 18:12:54,283 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users
+
+2015-09-17 18:12:54,283 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 18:12:54,283 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 18:12:54,283 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 18:12:54,283 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 18:12:54,293 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 18:12:54,293 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 18:12:54,293 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 18:12:54,293 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 18:12:54,293 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 18:12:54,293 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 18:12:54,293 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 18:12:54,303 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 18:12:54,303 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 18:12:54,303 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 18:12:54,313 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 18:12:54,313 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 18:12:54,323 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 18:12:54,323 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 18:12:54,323 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 18:12:54,323 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 18:12:54,323 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 18:12:54,333 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 18:12:54,333 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User
+
+2015-09-17 18:12:54,333 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User$
+
+2015-09-17 18:12:54,333 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 18:12:54,333 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 18:12:54,333 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 18:12:54,343 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 18:12:54,343 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
+
+2015-09-17 18:18:08,799 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 18:18:08,979 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$
+
+2015-09-17 18:18:08,999 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 18:18:09,039 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 18:18:09,039 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 18:18:09,039 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 18:18:09,049 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 18:18:09,139 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 18:18:09,189 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 18:18:09,199 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 18:18:09,199 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 18:18:09,209 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 18:18:09,209 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 18:18:09,219 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users
+
+2015-09-17 18:18:09,219 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 18:18:09,219 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 18:18:09,229 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 18:18:09,229 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 18:18:09,229 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 18:18:09,229 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 18:18:09,229 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 18:18:09,229 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 18:18:09,229 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 18:18:09,229 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 18:18:09,229 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 18:18:09,239 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 18:18:09,239 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 18:18:09,239 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 18:18:09,249 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 18:18:09,249 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 18:18:09,259 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 18:18:09,259 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 18:18:09,259 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 18:18:09,259 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 18:18:09,259 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 18:18:09,269 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 18:18:09,269 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User
+
+2015-09-17 18:18:09,269 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User$
+
+2015-09-17 18:18:09,269 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 18:18:09,269 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 18:18:09,269 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 18:18:09,279 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 18:18:09,279 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
+
+2015-09-17 18:21:24,225 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+models.* is not a module: checking if wildcard and converting classes...
+
+2015-09-17 18:21:24,395 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$
+
+2015-09-17 18:21:24,415 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findById$1
+
+2015-09-17 18:21:24,445 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$
+
+2015-09-17 18:21:24,445 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder$
+
+2015-09-17 18:21:24,455 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$2
+
+2015-09-17 18:21:24,455 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB
+
+2015-09-17 18:21:24,535 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB is table and has constructor
+
+2015-09-17 18:21:24,595 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt$
+
+2015-09-17 18:21:24,605 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1
+
+2015-09-17 18:21:24,605 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo
+
+2015-09-17 18:21:24,605 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$create$1
+
+2015-09-17 18:21:24,615 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfo$
+
+2015-09-17 18:21:24,625 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users
+
+2015-09-17 18:21:24,625 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$$anonfun$$init$$1
+
+2015-09-17 18:21:24,625 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$$anonfun$$init$$2
+
+2015-09-17 18:21:24,625 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos
+
+2015-09-17 18:21:24,625 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts
+
+2015-09-17 18:21:24,625 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$2
+
+2015-09-17 18:21:24,635 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB
+
+2015-09-17 18:21:24,635 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB is table and has constructor
+
+2015-09-17 18:21:24,635 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.DummyPlaceHolder
+
+2015-09-17 18:21:24,635 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$
+
+2015-09-17 18:21:24,635 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExt
+
+2015-09-17 18:21:24,635 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$$times$2
+
+2015-09-17 18:21:24,635 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$authenticate$1$$anonfun$apply$1
+
+2015-09-17 18:21:24,645 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$create$1
+
+2015-09-17 18:21:24,645 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$userInfos$
+
+2015-09-17 18:21:24,655 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$users$
+
+2015-09-17 18:21:24,655 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$findById$2
+
+2015-09-17 18:21:24,655 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$
+
+2015-09-17 18:21:24,655 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfosTB$$anonfun$1
+
+2015-09-17 18:21:24,665 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.Users$$anonfun$findOneByUsername$1
+
+2015-09-17 18:21:24,665 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfos$$anonfun$create$2
+
+2015-09-17 18:21:24,665 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExtsTB$$anonfun$$times$1
+
+2015-09-17 18:21:24,665 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB$$anonfun$$times$1
+
+2015-09-17 18:21:24,665 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User
+
+2015-09-17 18:21:24,665 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.User$
+
+2015-09-17 18:21:24,675 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$$anonfun$findById$1
+
+2015-09-17 18:21:24,675 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB
+
+2015-09-17 18:21:24,675 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UsersTB is table and has constructor
+
+2015-09-17 18:21:24,675 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+classToDDL for: models.UserInfoExts$userInfoExts$$anonfun$$init$$1
+
+2015-09-17 18:21:24,685 - [DEBUG] - from play.api.db.slick.ddl.TableScanner$ in pool-1-thread-1 
+reflectAllDDLMethods(), will generate DDL for: models.UserInfosTB, models.UserInfoExtsTB, models.UsersTB
 

@@ -38,7 +38,7 @@ object UserInfoExts {
   
 }
 
-case class UserInfo(id: Long, openid: String,nickname: String,headicon: String,country: String,province: String,city: String,marktime: Date, weixinno: String,phone: String,healthreport: String,checkaddress: String,milion: String,halfmara: String,fullmara: String,industry: String,workunit: String,createdate: Date,updatetime: Date)
+case class UserInfo(id: Option[Long] = None, openid: String,nickname: String,headicon: String,country: String,province: String,city: String,marktime: Date, weixinno: String,phone: String,healthreport: String,checkaddress: String,milion: String,halfmara: String,fullmara: String,industry: String,workunit: String,createdate: Date,updatetime: Date)
 
 /** Mapping of columns to the row object */
 class UserInfosTB(tag: Tag) extends Table[UserInfo](tag, "user_info") {
@@ -47,7 +47,7 @@ class UserInfosTB(tag: Tag) extends Table[UserInfo](tag, "user_info") {
       d => new java.sql.Timestamp(d.getTime),
       d => new java.util.Date(d.getTime))
   
-  def id   = column[Long]("id")
+  def id   = column[Option[Long]]("id",O.AutoInc, O.PrimaryKey)
   def openid = column[String]("open_id")
   def nickname = column[String]("nick_name")
   def headicon = column[String]("head_icon")
@@ -78,6 +78,6 @@ object UserInfos {
 
   def create(userInfo:UserInfo)(implicit s: Session) = (userInfos returning userInfos.map(_.id)) += userInfo
   
-  def findById(id:Long)(implicit s: Session): Option[UserInfo] = userInfos.filter(_.id === id).list.headOption
+  def findById(id:Option[Long])(implicit s: Session): Option[UserInfo] = userInfos.filter(_.id === id).list.headOption
   
 }

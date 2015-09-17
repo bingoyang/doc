@@ -47,7 +47,7 @@ object Authorize extends Controller with LoginLogout with AuthConfigImpl {
 
 trait AuthConfigImpl extends AuthConfig {
 
-  type Id = Int
+  type Id = Option[Int]
 
   type User = Customer 
 
@@ -57,7 +57,7 @@ trait AuthConfigImpl extends AuthConfig {
 
   val sessionTimeoutInSeconds = 3600
 
-  def resolveUser(id: Int)(implicit ctx: ExecutionContext) = {
+  def resolveUser(id: Option[Int])(implicit ctx: ExecutionContext) = {
     Future.successful(DB.withSession { implicit session: play.api.db.slick.Config.driver.simple.Session =>
       Users.findById(id)
     })

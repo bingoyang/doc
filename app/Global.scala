@@ -22,7 +22,7 @@ object Global extends GlobalSettings {
     DB.withSession { implicit s =>
         if (Users.count == 0) {
           val rows = Seq(
-            User(1, "yangliubinga@163.com", "123"))
+            User(None, "yangliubinga@163.com", "123"))
           Users.users.insertAll(rows: _*)
         }
       }

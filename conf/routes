@@ -8,7 +8,7 @@ GET     /                          controllers.Authorize.login
 POST    /login                  controllers.Authorize.authenticate
 GET     /logout                 controllers.Authorize.logout
 GET     /main                 controllers.Application.index
-GET     /ad/creative                 controllers.Application.creative
+GET     /joy/userinfo                 controllers.Application.touserinfo
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

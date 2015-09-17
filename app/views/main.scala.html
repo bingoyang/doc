@@ -1,4 +1,4 @@
-@(title: String)(content: Html)(slidebar: Html)(topbar: Html)
+@(title: String,script: Html)(content: Html)(slidebar: Html)(topbar: Html)
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,6 +36,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+	
 
 </head>
 
@@ -71,7 +72,7 @@
 	
     <!-- Custom Theme JavaScript -->
     <script src="@routes.Assets.at("dist/js/sb-admin-2.js")"></script>
-
+	@script
 </body>
 
 </html>
