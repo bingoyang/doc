@@ -9,6 +9,8 @@ import play.api.test.Helpers._
 import models._
 import services.UserInfoService
 import services.Condition
+import services.UserInfoBean
+import play.api.libs.json.Json
 
 /**
  * test the kitty cat database
@@ -20,11 +22,10 @@ class DBSpec extends Specification {
   "DB" should {
     "work as expected" in new WithApplication {
       //create an instance of the table
-
-      DB.withSession { implicit s: Session =>
-          //Users.create(User(None,"yangliubinga@163.com","123"))
-          UserInfoService.findUserInfos(1,1, new Condition("","","","","",""))
-      }
+      val userInfo = new UserInfoBean(0L,"111","2222","3333","4444","5555","6666",new java.sql.Date(System.currentTimeMillis()),"111","2222","3333","4444","5555","6666","7777","7777","111","2222",1,180,75,"6666",38,"aaaa",new java.sql.Date(System.currentTimeMillis()),new java.sql.Date(System.currentTimeMillis()))
+       UserInfoService.insertUserInfo(userInfo)
+       val page = UserInfoService.findUserInfos(10,1,Condition("","","","","","",10,1,1))
+       println(Json.toJson(page))
     }
   }
 

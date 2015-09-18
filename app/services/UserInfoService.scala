@@ -30,15 +30,19 @@ object UserInfoService {
        val q2 = StaticQuery.query[(Int,Int),Int]("""select count(id) from user_info limit ?,?""")
        val total = q2.list((pageNo - 1)*pageSize,pageSize).head
        val totalPage = if(total%pageSize > 0) total/pageSize+1 else total/pageSize;
-       new Page(Some(d),total,pageSize,pageNo,totalPage)
+       Page(Some(d),total,pageSize,pageNo,totalPage)
       }
   }
   
-  def insertUserInfo(u: UserInfo) = {
+  def insertUserInfo(u: UserInfoBean) = {
       DB.withSession { implicit s: Session =>
-        (sqlu"insert into user_info (open_id,nick_name,head_icon,country,province,city,mark_time,weixin_no,phone,health_report,check_address,milion,half_mara,full_mara,industry,workunit,create_date,identity,gender,height,weight,clothing_size,shoe_size,tags) values("+? u.openid +"," +? u.nickname + "," +? u.headicon + "," +? u.country + "," +? u.province+? u.city +"," +? u.marktime + "," +? u.weixinno + "," +? u.phone + "," +? u.healthreport+? u.checkaddress +"," +? u.milion + "," +? u.halfmara + "," +? u.fullmara + "," +? u.industry+? u.workunit +"," +? u.createdate + "," +? u.identity + "," +? u.gender + "," +? u.height+? u.weight + "," +? u.clothingsize + "," +? u.shoesize + "," +? u.tags +")").execute
+        (sqlu"insert into user_info (open_id,nick_name,head_icon,country,province,city,mark_time,weixin_no,phone,health_report,check_address,milion,half_mara,full_mara,industry,work_unit,create_date,identity,gender,height,weight,clothing_size,shoe_size,tags) values("+? u.openid +"," +? u.nickname + "," +? u.headicon + "," +? u.country + "," +? u.province+ ","+? u.city +"," +? u.marktime + "," +? u.weixinno + "," +? u.phone + "," +? u.healthreport+ ","+? u.checkaddress +"," +? u.milion + "," +? u.halfmara + "," +? u.fullmara + "," +? u.industry+ ","+? u.workunit +"," +? u.createdate + "," +? u.identity + "," +? u.gender + "," +? u.height+ ","+? u.weight + "," +? u.clothingsize + "," +? u.shoesize + "," +? u.tags +")").execute
       }
-    
   }
   
+  def deleteUserInfo(id: Long) = {
+     DB.withSession { implicit s: Session =>
+        sqlu"delete from user_info where id = id".first
+      }
+  }
 }
