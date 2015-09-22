@@ -22,15 +22,14 @@ object UserInfoService {
     res
   })
   
-  def findUserInfos(pageSize :Int,pageNo :Int,condition :Condition):Page[Map[String,Any]] = {
+  def findUserInfos(length :Int,start :Int,condition :Condition):Page[Map[String,Any]] = {
       
       DB.withSession { implicit s: Session =>
-       val q =  StaticQuery.query[(Int,Int),Map[String,Any]]("""select *  from user_info  limit ?,?""")
-       val d = q.list((pageNo - 1)*pageSize,pageSize).toList
+       val q =  StaticQuery.query[(Int,Int),Map[String,Any]]("""select  *  from user_info  limit ?,?""")
+       val d = q.list(start,length).toList
        val q2 = StaticQuery.query[(Int,Int),Int]("""select count(id) from user_info limit ?,?""")
-       val total = q2.list((pageNo - 1)*pageSize,pageSize).head
-       val totalPage = if(total%pageSize > 0) total/pageSize+1 else total/pageSize;
-       Page(Some(d),total,pageSize,pageNo,totalPage)
+       val total = q2.list(start,length).head
+       Page(Some(d),total,start,length,0,condition.draw)
       }
   }
   

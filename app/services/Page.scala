@@ -19,7 +19,7 @@ import play.api.libs.json.JsBoolean
  * @author yangliubing
  */
 
-case class Page[T](data: Option[List[T]] = None, total: Int, pageNo: Int, pageSize: Int, totalPage: Int)
+case class Page[T](data: Option[List[T]] = None, recordsTotal: Int, pageNo: Int, pageSize: Int, totalPage: Int,draw:Int)
 
 object Page {
   implicit val anyMapFormat = new Format[Map[String, Any]] {
@@ -53,16 +53,17 @@ object Page {
 
     def writes(page: Page[Map[String, Any]]): JsValue = {
       val pageSeq = Seq(
-        "total" -> JsNumber(page.total),
+        "draw" -> JsNumber(page.draw),
+        "recordsTotal" -> JsNumber(page.recordsTotal),
         "pageNo" -> JsNumber(page.pageNo),
         "pageSize" -> JsNumber(page.pageSize),
-        "totalPage" -> JsNumber(page.totalPage),
+        "recordsFiltered" -> JsNumber(page.recordsTotal),
         "data" -> Json.toJson(page.data.get))
       JsObject(pageSeq)
     }
     // (i don't need this method; just here to satisfy the api)
     def reads(json: JsValue): JsResult[Page[Map[String, Any]]] = {
-      JsSuccess(Page(None, 0, 0, 0, 0))
+      JsSuccess(Page(None, 0, 0, 0, 0,0))
     }
   }
 }

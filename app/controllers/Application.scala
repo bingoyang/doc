@@ -65,8 +65,8 @@ object Application extends Controller {
         "city" -> text,
         "weixinno" -> text,
         "phone" -> text,
-        "pageSize" -> number,
-        "pageNo" -> number,
+        "draw" -> number,
+        "start" -> number,
         "userid" -> of(longFormat)
     )(Condition.apply)(Condition.unapply)
   }
@@ -80,13 +80,10 @@ object Application extends Controller {
   
   def userinfolist = Action {
      implicit request => {
-         conditionForm.bindFromRequest.fold(
-             errors =>  Ok(Json.toJson(Map("status" -> "9999", "msg" -> "参数异常！"))),
-             c => {
-                    val page = UserInfoService.findUserInfos(c.pageSize,c.pageNo,c)
-                    Ok(Json.toJson(page))
-             }
-         )
+         val start: Int = request.getQueryString("start").get.toInt;
+         val length: Int = request.getQueryString("length").get.toInt;
+         val page = UserInfoService.findUserInfos(length,start,Condition("","","","","","",length,request.getQueryString("start").get.toInt,0l))
+         Ok(Json.toJson(page))
     }
   }
   
@@ -130,6 +127,19 @@ object Application extends Controller {
                     Ok(views.html.userinfo("用户信息管理"))
              }
          )
+    }
+  }
+
+  def upload = Action(parse.multipartFormData) { request =>
+    request.body.file("excel").map { excel =>
+      import java.io.File
+      val filename = excel.filename
+      val contentType = excel.contentType
+      excel.ref.moveTo(new File("/tmp/picture"))
+      
+      Ok("File uploaded")
+    }.getOrElse {
+      Redirect(routes.Application.index).flashing("error" -> "Missing file")
     }
   }
 }
