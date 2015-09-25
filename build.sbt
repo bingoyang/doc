@@ -11,7 +11,7 @@ libraryDependencies ++= Seq(
   "jp.t2v" %% "play2-auth-test" % "0.11.0" % "test",
   "com.typesafe.play" %% "play-slick" % "0.6.1",
   "mysql" % "mysql-connector-java" % "5.1.36",
-  "org.apache.poi" % "poi" % "3.13-beta1"
+  "info.folone" %% "poi-scala" % "0.15"
 )     
 
 play.Project.playScalaSettings
